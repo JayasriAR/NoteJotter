@@ -15,17 +15,9 @@ document.getElementById('Usename').innerHTML=name1;
 }
 load();
 
-let executed = false;
-let timeoutId;
-
 function showAlert() {
-  if (!executed) {
     alert("Use The Bottom Right Plus Button To Add Your Notes!");
-    executed = true;
-    clearTimeout(timeoutId);
-  }
 }
-
 const quesIcon = document.getElementById("ques-icon");
 quesIcon.addEventListener("click", showAlert);
 
