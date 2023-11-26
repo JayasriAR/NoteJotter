@@ -1,0 +1,219 @@
+body{
+    width: 100%;
+    background-color:  #ffffff;
+    color: #4f3a6a;
+}
+/* .nav-bar{
+    width: 100% !important;
+} */
+button .navbar-toggler{
+  color:#fdae89 !important;
+}
+#ques-icon:hover{
+    cursor: pointer;
+}
+#ques-icon:hover + .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    color: #fff;
+}
+/* Dark mode */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+body.dark-mode .Notes_contain {
+    background-color: white;
+    color: #1a1a1a;
+    font-weight: 500 !important;
+}
+body.dark-mode .blub{
+    color: white !important;
+    font-size: 22px; 
+    cursor: pointer;
+}
+body.dark-mode .navbar-brand,.nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    font-size: 30px !important;
+}
+body.dark-mode  .deletebtn{
+    border: none;
+    background-color: #FFC6AC;
+    color: white;
+    font-family: 'Poppins',sans-serif !important;
+    padding: 3px 8px;
+    border-radius: 20px;   
+} 
+body.dark-mode .Notes_contain h1{
+    color: #fdae89;
+}
+.blub{
+    color:black;
+    font-size: 22px; 
+    cursor: pointer;
+}
+.blub:hover{
+    color: gray;
+    font-size: 20px; 
+    cursor: pointer;
+}
+
+.tooltip-text {
+    visibility: hidden;
+}
+
+
+.popup_bg{
+    background-color: black;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0.8;
+    z-index:1;
+    display: none;
+}
+.popup_box{
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    background-color:#7F669D;
+    padding:20px;
+    z-index:2;
+    position: absolute;
+    color:black;
+    width: 40%;
+    left:30%;
+    top:20%;
+    display: none;
+}
+.navbar{
+    background-color: #6c5090 !important;
+}
+
+.navbar-brand,.nav-link{
+    color: #FFC6AC !important;
+}
+.nav-link:hover{
+    color: white !important;
+}
+.nav-link{
+    padding-left: 50px !important;
+    font-size: 22px !important;
+}
+
+#contain{
+    padding: 10px;
+}
+.Notes_contain{
+    border-radius: 10px;
+    padding: 15px;
+    display: inline-block;
+    background-color: #FFC6AC;
+    display: inline-block;
+    margin: 20px !important;
+    vertical-align: top;
+}
+.Notes_contain h1{
+    color: white;
+}
+
+.date1{
+    color:rgb(15, 15, 15) !important;
+    font-family: 'Poppins',sans-serif !important; 
+}
+.deletebtn{
+    border: none;
+    background-color: white;
+    color: #FFC6AC;
+    font-family: 'Poppins',sans-serif !important;
+    padding: 3px 8px;
+    border-radius: 20px;   
+}
+
+.newdiv{
+    margin: 5px;
+}
+.icon_pos{
+    position: fixed;
+    bottom:30px;
+    right:30px;
+    margin:10px;
+    cursor: pointer;
+    color:#4f3a6a;
+}
+#error,#error2{
+    color:red;
+    display: none;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.blink {
+    animation: blink 1s 3;
+  }
+.font-fam{
+    font-family: 'Poppins',sans-serif;
+}
+#content,.txt1{
+    border: none; /* Removes the border */
+    outline: none; 
+    width:100%;
+    margin:5px;
+    padding:5px;
+    border-bottom: 1px solid black;
+    background: transparent;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    color: #FFF9CA;
+    font-weight: 500 !important;
+}
+
+.pop_button{
+font-family: 'Poppins',sans-serif;
+background-color: #FFF9CA;
+border: none;
+padding: 5px 10px;
+margin:2px;
+border-radius: 5px;
+}
+.pop_button:hover{
+    background: #FFC6AC;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #FFC6AC,0 0 10px #f9c3aa,0 0 15px #fdae89;
+}
+#title::placeholder {
+    color: #f4f1f18b;
+}
+
+#content::placeholder {
+    color: #f4f1f18b;
+}
+@media(max-width:768px){
+    .popup_bg{
+        background-color: black;
+        height: 100%;
+        width:100%;
+        position: absolute;
+        top:0;
+        left:0;
+        opacity: 0.8;
+        z-index:1;
+        display: none;
+    }
+    .popup_box{
+        background-color:#604b7a;
+        padding:20px;
+        z-index:2;
+        position: absolute;
+        color:black;
+        width: 75%;
+        left:10%;
+        top:20%;
+        display: none;
+    }
+}
