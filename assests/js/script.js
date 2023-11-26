@@ -87,7 +87,7 @@ add_notes.addEventListener("click",function(event){
     var div=document.createElement("div")
     div.setAttribute("class","Notes_contain")
     var tit=title.value.charAt(0).toUpperCase()+title.value.slice(1,title.value.length)
-    var cont=content.value.charAt(0).toUpperCase()+content.value.slice(1,title.value.length)
+    var cont=content.value.charAt(0).toUpperCase()+content.value.slice(1,content.value.length)
     div.innerHTML=`<h1 class="font-fam text-center">${tit}</h1></br><p font-fam text-wrap>${cont}</p></br><p class="font-weight-light d-inline-block">Created on ${localDate}</p></br><button class="deletebtn" onclick="Delete(event)">Delete</button>`
     contain.append(div)
     popup_bg.style.display="none";
