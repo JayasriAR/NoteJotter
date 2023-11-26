@@ -3,9 +3,9 @@
  It allows users to easily add and delete notes, personalize their experience with a dark mode feature, and get started by entering their name.
 
 # Features
-User-friendly Interface: The application provides a simple and intuitive user interface, ensuring a seamless note-taking experience.
+**User-friendly Interface:** The application provides a simple and intuitive user interface, ensuring a seamless note-taking experience.
 
-Dark Mode: Users have the option to switch to dark mode, enhancing readability and reducing eye strain, especially in low-light environments.
+**Dark Mode:** Users have the option to switch to dark mode, enhancing readability and reducing eye strain, especially in low-light environments.
 
 # Note Management:
 
@@ -14,7 +14,7 @@ Dark Mode: Users have the option to switch to dark mode, enhancing readability a
 - Personalization: Users are greeted with a personalized experience by entering their name and clicking "Go" to get started.
 
 # Technologies Used
-HTML
-CSS
-JavaScript
-Bootstrap
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
